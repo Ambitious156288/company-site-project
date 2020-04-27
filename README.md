@@ -1,1 +1,1 @@
-simple
+https://simplebusiness-practice.netlify.app/
