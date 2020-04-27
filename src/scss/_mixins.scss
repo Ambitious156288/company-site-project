@@ -1,0 +1,18 @@
+@mixin positionA($top:null, $left:null){
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+
+@mixin flex-centerAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin transformCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
